@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "busboy": "^0.2.14"
   }
 }
