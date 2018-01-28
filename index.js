@@ -1,8 +1,12 @@
 const http = require('http')
 
+const data = {
+  message: 'Hello World'
+}
+
 http
   .createServer((req, res) => {
-    res.statusCode(200)
-    res.end()
+    res.setHeader('Content-Type', 'application/json')
+    res.end(JSON.stringify(data))
   })
   .listen(8080)

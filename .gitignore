@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/node,visualstudiocode
+# Created by https://www.gitignore.io/api/Node,VisualStudioCode
 
 ### Node ###
 # Logs
@@ -71,4 +71,4 @@ typings/
 .history
 
 
-# End of https://www.gitignore.io/api/node,visualstudiocode
+# End of https://www.gitignore.io/api/Node,VisualStudioCode
